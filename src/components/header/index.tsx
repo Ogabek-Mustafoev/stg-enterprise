@@ -68,7 +68,7 @@ export const Header: FC = () => {
         className="fixed py-2.5 md:py-4 rounded-b-3xl text-xl overflow-hidden top-0 text-white left-0 w-full z-10 bg-secondary"
       >
         <div className="flex items-center justify-between container">
-          <MotionEl className="h-6 w-max" direction="left" delay={.2}>
+          <MotionEl className="h-6 w-max cursor-pointer" direction="left" delay={.2}>
             <Image onClick={() => router.push('/')} src={logoImg} alt="logo" loading="eager"
                    className="h-full w-max object-center object-contain"/>
           </MotionEl>

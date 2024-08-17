@@ -32,7 +32,7 @@ export const ServiceCard: FC<IServiceCard> = ({title, handleBook, delay, image, 
             radius="full"
             color="primary"
             onClick={handleBook}
-            className="max-w-40 px-9 text-white font-light text-xl"
+            className="max-w-40 px-9 text-white mt-auto font-light text-xl"
           >
             {t('book')}
           </Button>
