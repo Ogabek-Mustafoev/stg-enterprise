@@ -26,6 +26,7 @@ export const metadata: Metadata = {
         url: logoShortImg.src,
         width: 1200,
         height: 630,
+        type: 'image/png',
         alt: "STG Enterprise Mining Equipment",
       },
     ],
@@ -39,6 +40,7 @@ export const metadata: Metadata = {
         url: logoShortImg.src,
         width: 1200,
         height: 630,
+        type: 'image/png',
         alt: "STG Enterprise Mining Equipment",
       },
     ],
@@ -64,12 +66,10 @@ export const metadata: Metadata = {
       sizes: "16x16",
     },
   ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://stg-enterprise.com",
-    languages: {
-      en: "https://stg-enterprise.com",
-    },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
   },
 };
 

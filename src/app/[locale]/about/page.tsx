@@ -3,11 +3,12 @@
 import {logoShortImg} from "@/constants";
 import {IParams} from "@/types";
 import {AboutPage} from "@/views";
-import {Metadata} from "next";
+import {Metadata, ResolvingMetadata} from "next";
 import {getTranslations} from "next-intl/server";
 
-export async function generateMetadata({params}: { params: IParams }): Promise<Metadata> {
+export async function generateMetadata({params}: { params: IParams }, parent: ResolvingMetadata): Promise<Metadata> {
   const t = await getTranslations("about");
+  const previousImages = (await parent).openGraph?.images || [];
 
   return {
     title: t('seo.title'),
@@ -42,8 +43,10 @@ export async function generateMetadata({params}: { params: IParams }): Promise<M
           url: logoShortImg.src,
           width: 1200,
           height: 630,
+          type: 'image/png',
           alt: "About STG Enterprise",
         },
+        ...previousImages,
       ],
     },
     twitter: {
@@ -57,8 +60,10 @@ export async function generateMetadata({params}: { params: IParams }): Promise<M
           url: logoShortImg.src,
           width: 1200,
           height: 630,
+          type: 'image/png',
           alt: "About STG Enterprise",
         },
+        ...previousImages,
       ],
     },
   };
