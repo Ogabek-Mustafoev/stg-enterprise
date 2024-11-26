@@ -11,7 +11,7 @@ import aboutOneImg from '@/assets/img/about-one.jpg';
 import aboutThreeImg from '@/assets/img/about-three.jpg';
 import aboutTwoImg from '@/assets/img/about-two.jpg';
 import contactImg from '@/assets/img/contact.jpg';
-import heroImg from '@/assets/img/hero-img.jpg';
+import heroImg from '@/assets/img/hero-img.webp';
 import logoShortImg from '@/assets/img/logo-short.png';
 import logoImg from '@/assets/img/logo.png';
 import partnerEightImg from '@/assets/img/partner-eight.png';
@@ -114,4 +114,5 @@ export {
   aboutUsData,
   offerService,
   servicesData,
+  ourCompanyScores,
 } from './data';

@@ -40,7 +40,7 @@ export const LocaleSwitcher: FC<ILocaleSwitcher> = ({className, onChange}) => {
         />
       }
       classNames={{value: "!text-white"}}
-      style={{background: "#1D3044", color: "#fff"}}
+      style={{background: "transparent", boxShadow: "none", color: "#fff"}}
       defaultSelectedKeys={[locale]}
       aria-label="language-select"
     >

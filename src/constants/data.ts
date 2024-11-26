@@ -194,3 +194,23 @@ export const socialLinks: ISocialLinks[] = [
     icon: youtubeIcon,
   },
 ]
+
+export const ourCompanyScores: Array<{ title: string; isPercent?: boolean; value: number }> = [
+  {
+    title: "Total Employee",
+    value: 1134,
+  },
+  {
+    title: "Our Brand in world",
+    value: 32,
+  },
+  {
+    title: `Profit (Million)`,
+    value: 2145,
+  },
+  {
+    title: "Company Growth",
+    isPercent: true,
+    value: 28,
+  },
+]

@@ -48,8 +48,11 @@ html {
 
 section.page {
   overflow-x: hidden;
-  padding-top: 4rem;
   min-height: 100vh;
+}
+
+.clip-path {
+  clip-path: polygon(60px 0, 100% 0, 100% 100%, 0 100%, 0 50px);
 }
 
 .grid-3 {

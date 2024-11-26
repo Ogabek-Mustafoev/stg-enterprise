@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aac40b65-ccce-478c-894c-de5be62bfe48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/hero-img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/stg-enterprise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/hero-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/locale-switcher/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/locale-switcher/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about-page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about-page/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home-page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home-page/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/projects-page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/projects-page/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/services-page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/services-page/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new_com" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kgW10K7ZWkES9ivol5kcoBjjJW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/CONSTRUCTION-GROUP/stg-enterprise&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\CONSTRUCTION-GROUP\\stg-enterprise\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CONSTRUCTION-GROUP\stg-enterprise\src\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CONSTRUCTION-GROUP\stg-enterprise\src\assets\img" />
+      <recent name="E:\CONSTRUCTION-GROUP\stg-enterprise\src\app\[locale]" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aac40b65-ccce-478c-894c-de5be62bfe48" name="Changes" comment="" />
+      <created>1723705481291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723705481291</updated>
+      <workItem from="1723705483116" duration="3986000" />
+      <workItem from="1723721479763" duration="6712000" />
+      <workItem from="1723733565063" duration="9000" />
+      <workItem from="1723783921010" duration="8577000" />
+      <workItem from="1723801097023" duration="304000" />
+      <workItem from="1723896211310" duration="4907000" />
+      <workItem from="1723901407674" duration="10000" />
+      <workItem from="1723901472044" duration="160000" />
+      <workItem from="1723903247408" duration="5000" />
+      <workItem from="1724045685624" duration="2847000" />
+      <workItem from="1724061493595" duration="22000" />
+      <workItem from="1724142034073" duration="842000" />
+      <workItem from="1724147716680" duration="38000" />
+      <workItem from="1724147762542" duration="720000" />
+      <workItem from="1724262310583" duration="80000" />
+      <workItem from="1728024081265" duration="943000" />
+      <workItem from="1729173655986" duration="335000" />
+      <workItem from="1729179357588" duration="123000" />
+      <workItem from="1732525777135" duration="10208000" />
+      <workItem from="1732542718028" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

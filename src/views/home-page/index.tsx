@@ -12,9 +12,9 @@ export const HomePage: FC = () => {
 
   return (
     <section className="page min-h-screen flex flex-col gap-4 md:gap-5 lg:gap-6">
-      <Hero/>
-      <div className="bg-white rounded-2xl py-8 md:py-12">
-        <div className="container flex flex-col gap-7">
+      <div className="bg-white rounded-b-2xl pb-8 md:pb-12">
+        <Hero/>
+        <div className="container mt-8 md:mt-12 flex flex-col gap-7">
           <MotionEl el="h3" delay={.2} direction="left" className="text-2xl md:text-3xl lg:text-4xl font-medium">
             {t('home.service-title')}
           </MotionEl>
