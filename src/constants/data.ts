@@ -2,8 +2,12 @@ import {
   aboutOneImg,
   aboutThreeImg,
   aboutTwoImg,
+  beezzImg,
+  crmImg,
   facebookIcon,
+  harryImg,
   instagramIcon,
+  mrceImg,
   orderOneIcon,
   orderThreeIcon,
   orderTwoIcon,
@@ -42,9 +46,13 @@ import {
   serviceSixImg,
   serviceThreeImg,
   serviceTwoImg,
+  stgImg,
+  stmgImg,
+  stroyImg,
   twitterIcon,
+  vanguardImg,
   youtubeIcon,
-} from "@/constants/index";
+} from "@/constants";
 import {IAboutUs, ILocalesData, INavLink, IOfferService, ISocialLinks, TLocale, TService} from "@/types";
 import {StaticImageData} from "next/image";
 
@@ -213,4 +221,15 @@ export const ourCompanyScores: Array<{ title: string; isPercent?: boolean; value
     isPercent: true,
     value: 28,
   },
+]
+
+export const holdings = [
+  harryImg,
+  vanguardImg,
+  stroyImg,
+  crmImg,
+  beezzImg,
+  stmgImg,
+  stgImg,
+  mrceImg,
 ]

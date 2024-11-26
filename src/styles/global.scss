@@ -98,7 +98,15 @@ section.page {
 }
 
 .spin {
-  animation: spin 7s linear infinite;
+  animation: spin 12s linear infinite;
+}
+
+.negative-spin {
+  animation: negative-spin 12s linear infinite;
+}
+
+.hexagon {
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 
 ::-webkit-scrollbar {
@@ -111,6 +119,15 @@ section.page {
 
 ::-webkit-scrollbar-thumb {
   background: #1D3044;
+}
+
+@keyframes negative-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 @keyframes spin {

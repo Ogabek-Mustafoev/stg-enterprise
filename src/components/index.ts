@@ -6,6 +6,7 @@ export {Image} from './image';
 export {Header} from './header';
 export {Footer} from './footer';
 export {Gallery} from './gallery';
+export {Holding} from './holding';
 export {Contact} from './contact';
 export {MotionEl} from './motion-el';
 export {MainInput} from './main-input';

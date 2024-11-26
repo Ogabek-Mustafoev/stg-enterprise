@@ -49,11 +49,29 @@ import serviceSevenImg from "@/assets/img/service-seven.jpg";
 import serviceSixImg from '@/assets/img/service-six.jpg';
 import serviceThreeImg from '@/assets/img/service-three.jpg';
 import serviceTwoImg from '@/assets/img/service-two.jpg';
+import harryImg from '@/assets/img/harry.jpg';
+import vanguardImg from '@/assets/img/vanguard.jpg';
+import stroyImg from "@/assets/img/stroy.jpg";
+import crmImg from '@/assets/img/crm.jpg';
+import beezzImg from '@/assets/img/beezz.jpg';
+import stmgImg from '@/assets/img/stmg.jpg';
+import stgImg from '@/assets/img/stg.jpg';
+import mrceImg from "@/assets/img/mrce.jpg";
+import holdingImg from '@/assets/img/holding.jpg';
 
 export {
   heroImg,
   logoImg,
   worldIcon,
+  harryImg,
+  vanguardImg,
+  stroyImg,
+  crmImg,
+  holdingImg,
+  beezzImg,
+  stmgImg,
+  stgImg,
+  mrceImg,
   contactImg,
   aboutOneImg,
   aboutTwoImg,
@@ -109,6 +127,7 @@ export {
   navLinks,
   projects,
   partners,
+  holdings,
   localesData,
   socialLinks,
   aboutUsData,

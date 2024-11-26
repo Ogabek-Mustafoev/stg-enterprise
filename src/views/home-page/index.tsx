@@ -1,6 +1,17 @@
 "use client"
 
-import {BriefIntro, Contact, ContactModal, Gallery, Hero, Link, MotionEl, OfferCard, ServiceCard} from "@/components";
+import {
+  BriefIntro,
+  Contact,
+  ContactModal,
+  Gallery,
+  Hero,
+  Holding,
+  Link,
+  MotionEl,
+  OfferCard,
+  ServiceCard
+} from "@/components";
 import {offerService, partners, projects, servicesData} from "@/constants";
 import {useDisclosure} from "@nextui-org/react";
 import {useTranslations} from "next-intl";
@@ -8,6 +19,7 @@ import {FC} from "react";
 
 export const HomePage: FC = () => {
   const {isOpen, onOpenChange, onOpen} = useDisclosure();
+
   const t = useTranslations();
 
   return (
@@ -25,6 +37,7 @@ export const HomePage: FC = () => {
           </div>
         </div>
       </div>
+      <Holding/>
       <BriefIntro handleClick={onOpen}/>
       <div className="bg-white py-10 lg:py-14">
         <div className="container flex flex-col gap-5">
