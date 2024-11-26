@@ -58,11 +58,13 @@ import stmgImg from '@/assets/img/stmg.jpg';
 import stgImg from '@/assets/img/stg.jpg';
 import mrceImg from "@/assets/img/mrce.jpg";
 import holdingImg from '@/assets/img/holding.jpg';
+import aboutImg from '@/assets/img/about.jpg';
 
 export {
   heroImg,
   logoImg,
   worldIcon,
+  aboutImg,
   harryImg,
   vanguardImg,
   stroyImg,
