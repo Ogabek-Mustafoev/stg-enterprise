@@ -55,6 +55,10 @@ section.page {
   clip-path: polygon(60px 0, 100% 0, 100% 100%, 0 100%, 0 50px);
 }
 
+.parent-div > p {
+  @apply line-clamp-1 break-all;
+}
+
 .grid-3 {
   display: grid;
   gap: 10px;

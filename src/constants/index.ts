@@ -59,6 +59,12 @@ import stgImg from '@/assets/img/stg.jpg';
 import mrceImg from "@/assets/img/mrce.jpg";
 import holdingImg from '@/assets/img/holding.jpg';
 import aboutImg from '@/assets/img/about.jpg';
+import partnerNineImg from '@/assets/img/partner-nine.png';
+import partnerTenImg from "@/assets/img/partner-ten.png";
+import partnerElevenImg from "@/assets/img/partner-eleven.png";
+import partnerTwelveImg from "@/assets/img/partner-twelve.png";
+import partnerThirteenthImg from "@/assets/img/partner-thirteen.png";
+import partnerFourteenImg from "@/assets/img/partner-fourteen.png";
 
 export {
   heroImg,
@@ -75,6 +81,12 @@ export {
   stgImg,
   mrceImg,
   contactImg,
+  partnerNineImg,
+  partnerTenImg,
+  partnerElevenImg,
+  partnerTwelveImg,
+  partnerThirteenthImg,
+  partnerFourteenImg,
   aboutOneImg,
   aboutTwoImg,
   twitterIcon,

@@ -7,6 +7,7 @@ import {
   Gallery,
   Hero,
   Holding,
+  Image,
   Link,
   MotionEl,
   OfferCard,
@@ -16,11 +17,43 @@ import {offerService, partners, projects, servicesData} from "@/constants";
 import {useDisclosure} from "@nextui-org/react";
 import {useTranslations} from "next-intl";
 import {FC} from "react";
+import {Swiper, SwiperProps, SwiperSlide} from "swiper/react";
+import {Autoplay, FreeMode} from "swiper/modules";
 
 export const HomePage: FC = () => {
   const {isOpen, onOpenChange, onOpen} = useDisclosure();
 
   const t = useTranslations();
+
+  const config: SwiperProps = {
+    loop: true,
+    freeMode: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    className: "mySwiper",
+    wrapperClass: '!ease-linear',
+    speed: 2500,
+    spaceBetween: 5,
+    slidesPerView: 2,
+    slidesPerGroup: 1,
+    modules: [Autoplay, FreeMode],
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 5,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 9,
+      },
+      1280: {
+        slidesPerView: 5,
+        spaceBetween: 10,
+      },
+    },
+  };
 
   return (
     <section className="page min-h-screen flex flex-col gap-4 md:gap-5 lg:gap-6">
@@ -43,7 +76,7 @@ export const HomePage: FC = () => {
         <div className="container flex flex-col gap-5">
           <div className="flex justify-between items-start gap-3">
             <div className="flex-1">
-              <MotionEl el="h2" direction="left" className="heading mb-4 uppercase">{t('services.title')}</MotionEl>
+              <MotionEl el="h2" direction="left" className="heading mb-4 uppercase">{t('pages.services')}</MotionEl>
               <MotionEl el="p" direction="left" delay={.2} className="text-lg font-medium">
                 {t('services.description')}
               </MotionEl>
@@ -54,9 +87,9 @@ export const HomePage: FC = () => {
               </Link>
             </MotionEl>
           </div>
-          <div className="grid-3">
-            {servicesData.slice(0, 6).map((item, idx) => (
-              <ServiceCard handleBook={onOpen} delay={idx / 10} key={idx + "-service"} {...item}/>
+          <div className="grid-4">
+            {servicesData.map((item, idx) => (
+              <ServiceCard delay={idx / 10} key={idx + "-service"} {...item}/>
             ))}
           </div>
         </div>
@@ -80,7 +113,29 @@ export const HomePage: FC = () => {
         >
           {t("partners.title")}
         </MotionEl>
-        <Gallery className="grid-4" images={partners}/>
+        <div>
+          <Swiper
+            {...config}
+          >
+            {partners.slice(0, 7)?.map((src, idx) => (
+              <SwiperSlide className="cursor-pointer !h-auto" key={idx + "img"}>
+                <Image wrapperClass="rounded-xl" src={src} alt={idx + "-photo"}/>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Swiper
+            {...config}
+            dir="rtl"
+            centeredSlides
+            className="mt-2"
+          >
+            {partners.slice(7)?.map((src, idx) => (
+              <SwiperSlide className="cursor-pointer !h-auto" key={idx + "img"}>
+                <Image wrapperClass="rounded-xl" src={src} alt={idx + "-photo"}/>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
       <Contact/>
       <ContactModal isOpen={isOpen} onOpenChange={onOpenChange}/>

@@ -1,9 +1,13 @@
+import {Providers} from "@/providers";
 import {BaseLayout} from "@/components";
 import {logoShortImg} from "@/constants";
-import {Providers} from "@/providers";
 import {IChildren, IParams} from "@/types";
-import {NextIntlClientProvider, useMessages, useTranslations} from "next-intl";
 import {Saira_Condensed} from 'next/font/google';
+import {NextIntlClientProvider, useMessages, useTranslations} from "next-intl";
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 import '@/styles/global.scss';
 

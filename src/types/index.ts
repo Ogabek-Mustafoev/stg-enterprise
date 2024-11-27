@@ -31,7 +31,9 @@ export interface ILocalesData {
   value: TLocale;
 }
 
-export type TService = IAboutUs;
+export type TService = IAboutUs & {
+  url: string;
+};
 
 export interface ISocialLinks {
   text?: string;
