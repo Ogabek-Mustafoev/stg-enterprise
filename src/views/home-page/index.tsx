@@ -13,10 +13,10 @@ import {
   OfferCard,
   ServiceCard
 } from "@/components";
+import {FC} from "react";
 import {offerService, partners, projects, servicesData} from "@/constants";
 import {useDisclosure} from "@nextui-org/react";
 import {useTranslations} from "next-intl";
-import {FC} from "react";
 import {Swiper, SwiperProps, SwiperSlide} from "swiper/react";
 import {Autoplay, FreeMode} from "swiper/modules";
 
