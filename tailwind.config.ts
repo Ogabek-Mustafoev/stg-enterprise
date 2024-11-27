@@ -28,6 +28,9 @@ const config: Config = {
       }
     },
   },
+  safelist: [
+    "text-blue-500 drop-shadow-sm"
+  ],
   corePlugins: {
     container: false
   },

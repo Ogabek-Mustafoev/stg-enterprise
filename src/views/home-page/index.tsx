@@ -94,7 +94,7 @@ export const HomePage: FC = () => {
           </div>
         </div>
       </div>
-      <div className="container py-8 lg:py-14 flex flex-col gap-7">
+      <div id="projects" className="container py-8 lg:py-14 flex flex-col gap-7">
         <div className="flex justify-between items-start gap-3">
           <MotionEl el="h2" direction="left" className="heading mb-2 md:mb-4">{t("projects.title")}</MotionEl>
           <MotionEl direction="right" delay={.2}>
