@@ -14,7 +14,7 @@ export const ServicesPage: FC = () => {
       <h2 className="heading mt-5 mb-8">{t("title")}</h2>
       <div className="grid-4 pb-6">
         {servicesData.map((item, idx) => (
-          <ServiceCard delay={idx / 10} key={idx + "-service"} {...item}/>
+          <ServiceCard key={idx + "-service"} {...item}/>
         ))}
       </div>
     </section>

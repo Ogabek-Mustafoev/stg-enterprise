@@ -37,6 +37,15 @@ import projectThirteenImg from "@/assets/img/project-thirteen.webp";
 import projectThreeImg from '@/assets/img/project-three.webp';
 import projectTwelveImg from '@/assets/img/project-twelve.webp';
 import projectTwoImg from "@/assets/img/project-two.webp";
+import projectSixteenImg from "@/assets/img/project-sixteen.webp";
+import projectSeventeenImg from '@/assets/img/project-seventeen.webp';
+import projectEighteenImg from "@/assets/img/project-eighteen.webp";
+import projectNineteenImg from "@/assets/img/project-nineteen.webp";
+import projectTwentyImg from "@/assets/img/project-twenty.webp";
+import projectTwentyOneImg from '@/assets/img/project-twenty-one.webp';
+import projectTwentyTwoImg from '@/assets/img/project-twenty-two.webp';
+import projectTwentyThreeImg from '@/assets/img/project-twenty-three.webp';
+import projectTwentyFourImg from '@/assets/img/project-twenty-four.webp';
 import serviceEightImg from '@/assets/img/service-eight.jpg';
 import serviceFiveImg from '@/assets/img/service-five.jpg';
 import serviceFourImg from '@/assets/img/service-four.jpg';
@@ -86,6 +95,15 @@ export {
   partnerFourteenImg,
   projectFourteenImg,
   aboutOneImg,
+  projectSixteenImg,
+  projectSeventeenImg,
+  projectEighteenImg,
+  projectNineteenImg,
+  projectTwentyImg,
+  projectTwentyOneImg,
+  projectTwentyTwoImg,
+  projectTwentyThreeImg,
+  projectTwentyFourImg,
   aboutTwoImg,
   twitterIcon,
   youtubeIcon,
