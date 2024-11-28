@@ -65,12 +65,12 @@ export const Header: FC = () => {
         initial="initial"
         animate={isFixed ? "animate" : "initial"}
         transition={{duration: 0.6, ease: "easeInOut"}}
-        className="fixed py-2.5 md:py-4 rounded-b-3xl text-xl backdrop-blur bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.1)] overflow-hidden top-0 text-white left-0 w-full z-50"
+        className="fixed py-2.5 rounded-b-3xl text-xl backdrop-blur bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.1)] overflow-hidden top-0 text-white left-0 w-full z-50"
       >
         <div className="flex items-center justify-between container">
-          <MotionEl className="h-6 w-max cursor-pointer" direction="left" delay={.2}>
+          <MotionEl className="h-9 w-max cursor-pointer" direction="left" delay={.2}>
             <Image onClick={() => router.push('/')} src={logoImg} alt="logo" loading="eager"
-                   className="h-full w-max object-center object-contain"/>
+                   className="h-full drop-shadow w-max object-center object-contain"/>
           </MotionEl>
           <div className="hidden md:flex items-center flex-1 justify-between max-w-lg">
             {navLinks.map(({link, label}, idx) => (
