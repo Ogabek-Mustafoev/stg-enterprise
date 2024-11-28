@@ -205,19 +205,19 @@ export const socialLinks: ISocialLinks[] = [
 
 export const ourCompanyScores: Array<{ title: string; isPercent?: boolean; value: number }> = [
   {
-    title: "Total Employee",
+    title: "total",
     value: 1134,
   },
   {
-    title: "Our Brand in world",
+    title: "brand",
     value: 32,
   },
   {
-    title: `Profit (Million)`,
+    title: "profit",
     value: 2145,
   },
   {
-    title: "Company Growth",
+    title: "company",
     isPercent: true,
     value: 28,
   },

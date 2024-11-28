@@ -34,7 +34,7 @@ export const Hero: FC = () => {
         <div className="grid pl-5 sm:pl-10 h-max mt-auto grid-cols-4 gap-5 mb-7">
           {ourCompanyScores?.map(({value, isPercent, title}) => (
             <div key={value} className="max-w-24 flex flex-col gap-2">
-              <p className="text-lg leading-tight lg:text-xl font-medium">{title}</p>
+              <p className="text-lg leading-tight lg:text-xl font-medium">{t(title)}</p>
               <CountUp
                 end={value}
                 delay={1.5}

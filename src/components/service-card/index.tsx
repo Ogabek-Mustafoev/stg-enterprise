@@ -17,7 +17,7 @@ export const ServiceCard: FC<IServiceCard> = ({title, url, delay, image, html}) 
     <MotionEl delay={delay} scale={.8}>
       <Card shadow="sm" className="group h-full bg-light sm:p-2">
         <CardHeader className="z-0">
-          <Image wrapperClass="rounded-xl !w-28 !h-28" src={image} alt={title}/>
+          <Image wrapperClass="rounded-xl max-h-44" src={image} alt={title}/>
         </CardHeader>
         <CardBody className="flex flex-col gap-1">
           <h5 className="text-2xl font-semibold">{title}</h5>

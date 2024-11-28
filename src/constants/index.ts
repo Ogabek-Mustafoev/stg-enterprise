@@ -50,7 +50,7 @@ import harryImg from '@/assets/img/harry.jpg';
 import vanguardImg from '@/assets/img/vanguard.jpg';
 import stroyImg from "@/assets/img/stroy.jpg";
 import crmImg from '@/assets/img/crm.jpg';
-import beezzImg from '@/assets/img/beezz.jpg';
+import beezzImg from '@/assets/img/beezz.png';
 import stmgImg from '@/assets/img/stmg.jpg';
 import stgImg from '@/assets/img/stg.jpg';
 import mrceImg from "@/assets/img/mrce.jpg";

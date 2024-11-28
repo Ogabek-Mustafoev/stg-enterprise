@@ -15,7 +15,11 @@
   "hero": {
     "title": "Build & Improve Solution <br/>\n to The <span class=\"text-blue-500 drop-shadow-sm\">Better Future</span>",
     "description": "We are holding company fous on finance, property, technology, also renewable eneregy.",
-    "request": "See Our work"
+    "request": "See Our work",
+    "total": "Total Employee",
+    "brand": "Our Brand in world",
+    "profit": "Profit (Million)",
+    "company": "Company Growth"
   },
   "home": {
     "service-title": "Our purpose: To build a better future together",
@@ -47,7 +51,7 @@
       "description": "Discover the wide range of services offered by STG Enterprise, including high-quality mining equipment, flexible cooperation terms, and tailored solutions to meet the diverse needs of our clients.",
       "keywords": "STG Enterprise, services, mining equipment, flexible cooperation, tailored solutions"
     },
-    "title": "SERVICES",
+    "title": "COMPANIES",
     "description": "Our priority is customer satisfaction. We work with clients individually to understand their unique needs and goals.",
     "XCMGXTC80": "XCMG XTC80 Diaphragm Wall Grab",
     "wall-thickness": "STG Enterprise is a leader in the field of residential building construction, renowned for its innovative and high-quality projects. The company builds homes that not only provide comfort but also meet the most modern environmental and technological standards.",
