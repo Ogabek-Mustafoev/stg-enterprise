@@ -71,6 +71,7 @@ import partnerElevenImg from "@/assets/img/partner-eleven.png";
 import partnerTwelveImg from "@/assets/img/partner-twelve.png";
 import partnerThirteenthImg from "@/assets/img/partner-thirteen.png";
 import partnerFourteenImg from "@/assets/img/partner-fourteen.png";
+import logoWhiteImg from '@/assets/img/logo-white.png';
 
 export {
   heroImg,
@@ -86,6 +87,7 @@ export {
   stmgImg,
   stgImg,
   mrceImg,
+  logoWhiteImg,
   contactImg,
   partnerNineImg,
   partnerTenImg,

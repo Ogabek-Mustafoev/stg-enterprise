@@ -1,8 +1,9 @@
 "use client"
 
 import {Link, MotionEl, usePathname} from "@/components";
-import {logoImg, navLinks, socialLinks} from "@/constants";
+import {logoWhiteImg, navLinks, socialLinks} from "@/constants";
 import {useTranslations} from "next-intl";
+
 import Image from "next/image";
 import {FC} from "react";
 
@@ -14,7 +15,7 @@ export const Footer: FC = () => {
     <footer className="pt-10 lg:pt-14 pb-6 lg:pb-8 mt-14 rounded-t-3xl text-lg bg-secondary text-white">
       <div className="container flex flex-col gap-3 md:gap-4">
         <MotionEl className="h-10 md:h-14 lg:h-16 flex justify-start" direction="left" delay={.2}>
-          <Image src={logoImg} alt="logo" className="h-full w-max object-center object-contain"/>
+          <Image src={logoWhiteImg} alt="logo" className="h-full w-max object-center object-contain"/>
         </MotionEl>
         <div className="flex md:items-center flex-col md:flex-row gap-5 md:justify-between">
           <div className="flex flex-wrap gap-4 text-xl w-full flex-1 justify-between max-w-lg">
